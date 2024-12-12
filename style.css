@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: rgba(94, 172, 146, 0.534);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    
+}
+.circle{
+    border-radius: 100%;
+    padding: 0.5rem;
+    width: 80px;
+    height: 100px;
+    margin: 10px auto;
+    background-color: white;
+}
+.circles {
+    background-color: black;
+    padding: 0.5rem;
+    width:fit-content
+}
+.col1{
+    background-color: red;
+}
+.col2{
+    background-color: yellow;
+}
+.col3{
+    background-color: green;
+}
+#guess{
+    width: 350px;
+    padding: .25rem;
+}
